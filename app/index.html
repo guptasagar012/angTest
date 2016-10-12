@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Nearet- Anything Anywhere</title>
+
+<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+<meta name="viewport"
+    content="width=device-width,  height=device-height, user-scalable=no" />
+<meta property="og:site_name" content="Nearet" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.nearet.com" />
+<meta property="og:title" content="Nearet - Anything Anywhere" />
+<meta property="og:image"
+    content="/Users/nearet/Desktop/Nearet/app/assets/images/nearet-banner.png" />
+<meta property="og:description"
+    content="Nearet is one stop solution to Shop anything anywhere"/>
+<!-- Latest compiled and minified CSS -->
+<link
+    href="http://asia.twly.co/res/styles/bootstrap.min.css?v=22"
+    rel="stylesheet">
+<link
+    href="http://asia.twly.co/res/flat-ui/css/flat-ui.min.css?v=22"
+    rel="stylesheet">
+<link
+    href="http://asia.twly.co/res/styles/twly-site.css?v=22"
+    rel="stylesheet">
+
+</head>
+
+
+<!--
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- build:css assets/css/styles.css -->
+    <link rel="stylesheet" href="assets/css/font-icons.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/animations.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="sections/home/home.css"/>
+
+</head> 
+<body data-ng-app="app">
+ 
+ <!--
+
+<header id="site-header">
+        <div class="container">
+            <ul class="pull-right menu">
+                <li><a href="#/">My HOME</a></li>
+                <li><a href="#/view">VIEW</a></li>
+                <li><a href="#/contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header> -->
+    
+
+    <section id="main">
+        <div class="container">
+            <ng-view></ng-view>
+        </div>
+    </section>
+
+    <!-- build:assets assets.min.js -->
+    <!-- ASSETS -->
+        <script src="assets/js/angular.min.js"></script>
+        <script src="assets/js/angular-animate.min.js"></script>
+        <script src="assets/js/angular-cookies.min.js"></script>
+        <script src="assets/js/angular-route.min.js"></script>
+        <script src="assets/js/angular-touch.min.js"></script>
+        <script src="assets/js/moment.min.js"></script>
+        <script src="assets/js/angular-moment.min.js"></script>
+        <script src="assets/js/angular-truncate.js"></script>
+        <script src="assets/js/angular-preload-image.min.js"></script>
+    <!-- / -->
+    <!-- endbuild -->
+    <!-- build:js app.min.js -->
+    <!-- MODULES -->
+        <script src="app.routes.js"></script>
+        <script src="app.config.js"></script>
+        <script src="app.core.js"></script>
+        <script src="app.services.js"></script>
+        <script src="app.js"></script>
+    <!-- / -->
+    <!-- CONTROLLERS -->
+        <script src="sections/home/home.js"></script>
+        <script src="sections/view/view.js"></script>
+        <script src="sections/contact/contact.js"></script>
+        
+    <!-- / -->
+    <!-- SERVICES -->
+        <script src="services/show.fct.js"></script>
+        <script src="services/page.val.js"></script>
+    <!-- / -->
+    <!-- DIRECTIVES -->
+        <script src="components/show/show.drct.js"></script>
+        <script src="directives/ngEnter.drct.js"></script>
+    <!-- / -->
+    <!-- inject:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>
