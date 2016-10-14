@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="assets/images/favicon.ico">
 
 <meta name="viewport"
-    content="width=device-width,  height=device-height, user-scalable=no" />
+    content="width=device-width,  height=device-height, initial-scale=1" />
 <meta property="og:site_name" content="Nearet" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.nearet.com" />
@@ -19,15 +19,7 @@
 <meta property="og:description"
     content="Nearet is one stop solution to Shop anything anywhere"/>
 <!-- Latest compiled and minified CSS -->
-<link
-    href="http://asia.twly.co/res/styles/bootstrap.min.css?v=22"
-    rel="stylesheet">
-<link
-    href="http://asia.twly.co/res/flat-ui/css/flat-ui.min.css?v=22"
-    rel="stylesheet">
-<link
-    href="http://asia.twly.co/res/styles/twly-site.css?v=22"
-    rel="stylesheet">
+
 
 </head>
 
@@ -42,11 +34,20 @@
     <link rel="stylesheet" href="assets/css/animations.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="sections/home/home.css"/>
+    <link rel="stylesheet" href="assets/css/nearet.css"/>
 
 </head> 
 <body data-ng-app="app">
  
- <!--
+
+
+
+<!--<div class="container">
+<div id="site-header">
+        <a href="http://www.nearet.com" target="_blank">
+            <img src="/Users/nearet/Desktop/Nearet/app/assets/images/neaRet-logo-name.png" width="100" height="50" /></a>
+            </div>
+            </div>
 
 <header id="site-header">
         <div class="container">
@@ -63,7 +64,7 @@
         <div class="container">
             <ng-view></ng-view>
         </div>
-    </section>
+    </section> 
 
     <!-- build:assets assets.min.js -->
     <!-- ASSETS -->
@@ -88,6 +89,7 @@
     <!-- / -->
     <!-- CONTROLLERS -->
         <script src="sections/home/home.js"></script>
+        <script src="sections/header/header.js"></script>
         <script src="sections/view/view.js"></script>
         <script src="sections/contact/contact.js"></script>
         

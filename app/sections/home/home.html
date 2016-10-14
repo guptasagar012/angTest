@@ -1,11 +1,12 @@
-<div class="home-frame">
-    <div class="home-banner">
-        <div class="container inner">
-<div class="container">
-        <a href="http://www.nearet.com">
-            <img id="site-header" src="/Users/nearet/Desktop/Nearet/app/assets/images/neaRet-logo-name.png" width="100" height="50" /></a>
-            </div>
-            <h1>NEARET</h1>
-        </div>
-    </div>
-</div>
+<table>
+            <tr>
+               <th> Name </th>
+               <th> ID </th>
+               <th> Age </th>
+            </tr>
+            <tr ng-repeat = "value in values">
+               <td> {{ value.Name }} </td>
+               <td> {{ value.ID }} </td>
+               <td> {{ value.Age }} </td>
+            </tr>
+         </table>

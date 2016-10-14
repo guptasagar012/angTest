@@ -22,10 +22,8 @@ a:hover {
     text-decoration: none;
 }
 #site-header {
-    background-color: #222;
     border-color: #222;
-    height: 60px;
-    color: #CCC;
+    color: #180602;
     font-weight: 300;
 }
 #site-header .logo {
@@ -53,8 +51,7 @@ a:hover {
     -webkit-transition: color .2s linear;
 }
 #site-header .menu li a:hover {
-    line-height: 60px;
-    color: #3bb9bb;
+    color: #6F5F5F;
     text-decoration: none;
 }
 #site-bar {
@@ -186,6 +183,9 @@ footer .container .glyphicon-heart {
 .btn-lg, .btn-group-lg > .btn {
     padding: 15px 16px 13px;
     line-height: 15px;
+}
+.pull-right {
+    float: right !important;
 }
 .label {
     display: inline;
