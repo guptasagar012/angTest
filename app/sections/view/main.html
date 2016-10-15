@@ -12,10 +12,10 @@
             </div>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="navbar-nav navbar-right">
-                <li><a href="#/home">Home</a></li>
-                <li><a href="#/contact">Contact</a></li>
-                <li><a href="#/view">View</a></li>
+            <ul class="navbar-nav navbar-right" ng-repeat="element in elements">
+                <li><a href="#/home">{{element.Header1}}</a></li>
+                <li><a href="#/contact">{{element.Header2}}</a></li>
+                <li><a href="#/view">{{element.Header3}}</a></li>
             </ul>
         </div>
     </div>

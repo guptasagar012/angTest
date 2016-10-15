@@ -7,7 +7,7 @@ angular
 function config ($routeProvider) {
     $routeProvider.
         when('/', {
-            templateUrl: 'sections/header/header.html',
+            templateUrl: 'sections/home/home.html',
             controller: 'HeaderController'
         })
         .when('/home', {

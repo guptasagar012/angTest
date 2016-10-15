@@ -1,0 +1,474 @@
+body {
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.row {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.rightBoxTopMargin {
+	margin-top: 10px;
+}
+
+.floatCenter {
+	margin: 0 auto;
+}
+
+.header-name {
+	color: white;
+}
+
+.navbar-nav {
+	margin-top: 10px;
+}
+
+.nearet-content {
+	padding: 40px 0px 80px;
+	min-height: 760px;
+}
+
+.nearet-content-home {
+	padding: 10px 0px 40px;
+	min-height: 490px;
+}
+
+.nearet-content-contactus {
+	padding: 0px 0px 40px;
+	min-height: 490px;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.navbar-nav>li>a {
+	padding: 8px 21px 8px 21px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 23px;
+}
+
+a:hover, a:focus {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+.preFooter {
+	background-color: #363636;
+	color: #ffffff;
+	font-size: 1.36rem;
+	padding: 10px 0px 2px;
+	text-align: center;
+}
+
+
+#footer li:hover {
+    opacity: 1;
+}
+
+.home-page-title-text{
+	display: inline-block;
+	line-height: 60px;
+}
+.loginPageView {
+	padding-right: 107px;
+	padding-left: 85px
+}
+
+.feedbackPageView {
+	padding-right: 90px;
+	padding-left: 45px
+}
+
+.loginLeftBorder {
+	border-left: 1px solid #ccc;
+}
+
+.loginContainerSpacing {
+	margin-bottom: 52px;
+	margin-top: 59px
+}
+
+.loginSubmitButton {
+	padding-left: 1px;
+	padding-right: 4px;
+}
+
+#footer {
+	background: none repeat 0px 0px #34495e;
+	line-height: 1.42857;
+	min-height: 55px;
+	width: 100%;
+	/*   height: 60px;
+
+  position: absolute;
+  bottom: 10px;
+  top: 910px;
+  margin-top:auto;  
+ */
+}
+
+#footer a {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+#footer ul {
+	margin-top: 10px;
+}
+
+#footer li {
+	display: inline;
+	font-size: 0.78rem;
+	list-style-type: none;
+	margin-right: 20px;
+	opacity: 0.5;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.modal-footer {
+	border-top: 0;
+	margin-top: 0px;
+	padding: 19px 20px 20px;
+	text-align: right;
+}
+
+.captcha-custom{
+	 margin-bottom: 12px;
+    margin-top: 0px;
+}
+.captcha-custom-img{
+	border: 1px inset;
+}
+
+.errorCaptcha{
+	 margin-top: 0px;
+	  margin-bottom: 0px;
+	color:red;
+}
+.floatLeft{
+	float:left;
+}
+
+.floatRight{
+	float:right;
+}
+
+.captchaRobotMsg{
+	  margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+
+}
+
+
+/* @media screen and ( min-height: 900px ){
+    #footer {
+	 position: absolute;
+  bottom: 10px;
+  top: 910px;
+  margin-top:auto;  
+	}
+}
+
+ 
+
+@media screen and ( max-height: 900px ){
+    #footer {
+	position: relative;
+  bottom: 10px;
+  height:100%;
+  top: 910px;
+  margin-top:auto;  
+	}
+} */
+@media ( max-width : 767px) {
+	.hidden-inline-xs {
+		display: none !important;
+	}
+	.blankpage.greys {
+		padding: 90px 0px 50px;
+	}
+	html {
+		font-size: 14px;
+	}
+	#footer ul {
+		padding: 0px 40px;
+	}
+	#footer li {
+		display: block;
+		text-align: center;
+	}
+	#footer .pull-left {
+		float: none ! important;
+	}
+	.nearet-content {
+     padding-top: 0px;
+}
+
+.home-margin-ne {
+margin-top: -56px;	
+}
+
+.home-page-title-text-ne{
+	display: inline-block;
+	line-height: 45px;
+}
+.nearet-content-home {
+  padding-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    min-height: 53px;
+}
+}
+
+@media ( max-width : 991px) {
+	.blankpage.greys {
+		padding: 90px 0px 50px;
+	}
+	#footer {
+		position: static;
+		height: 100%;
+	}
+	html {
+		font-size: 16px;
+	}
+
+	/* 	.img-margin {
+   
+    margin-left: 20%;
+   
+	} */
+	.lead {
+		font-size: 28px;
+		font-weight: 300;
+		line-height: 1.46429;
+		margin-bottom: 30px;
+		margin-left: 20px;
+	}
+	.loginPageView {
+		padding-left: 44px;
+		padding-right: 34px;
+	}
+	.navbar-toggle {
+		margin: 0 25px 0 0;
+		padding: 0 ;
+	}
+	
+.navbar-brand {
+   
+       padding: 14px 10px;
+}	
+	
+}
+
+@media ( max-width : 600px) {
+	.blankpage.greys {
+		padding: 90px 0px 50px;
+	}
+}
+
+@media ( max-height : 480px) {
+	.nearet-content {
+		padding: 0px 0px 0px;
+		min-height: 760px;
+	}
+	
+	.nearet-content-contactus {
+	padding: 0px 0px 0px;
+		min-height: 760px;
+}
+
+}
+
+@media only screen and (max-device-width: 480px) {
+	html {
+		font-size: 16px;
+	}
+	.blankpage.greys {
+		padding: 90px 0px 50px;
+	}
+	h2 {
+		line-height: 110%;
+		font-size: 1.5rem;
+	}
+	#footer ul {
+		padding: 0px 20px;
+	}
+	#footer li {
+		padding: 0px;
+	}
+	.loginPageView {
+		padding-left: 44px;
+		padding-right: 34px;
+	}
+	
+		.captchaRobotMsg{
+	  margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+
+.navbar-collapse {
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 21px;
+}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:
+	1024px) {
+	.blankpage.greys {
+		padding: 90px 0px 50px;
+	}
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+	.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px
+}
+
+.form-horizontal .form-group {
+	margin-left: 20px;
+	margin-right: 15px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////// 	slide.css	//////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
+.imagepluscontainer { /* main image container */
+	position: relative;
+	z-index: 1;
+}
+
+.imagepluscontainer img { /* CSS for image within container */
+	position: relative;
+	z-index: 2;
+	-moz-transition: all 0.5s ease;
+	/* Enable CSS3 transition on all props */
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.imagepluscontainer:hover img {
+	/* CSS for image when mouse hovers over main container */
+	/*-moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);*/
+	-moz-transform: scale(1.05, 1.05);
+	-webkit-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+}
+
+.imagepluscontainer div.desc { /* CSS for desc div of each image. */
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	/* Set z-index to that less than image's, so it's hidden beneath it */
+	bottom: 0;
+	/* Default position of desc div is bottom of container, setting it up to slide down */
+	left: 5px;
+	padding: 8px;
+	background: rgba(0, 0, 0, 0.1) /*black bg with 80% opacity */ 
+ /*color: white;*/ 
+ -moz-border-radius: 0 0 8px 8px; /* CSS3 rounded borders */
+	-webkit-border-radius: 0 0 8px 8px;
+	border-radius: 0 0 8px 8px;
+	opacity: 0; /* Set initial opacity to 0 */
+	/*-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);  CSS3 shadows 
+-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);*/
+	-moz-transition: all 0.5s ease 0.5s;
+	/* Enable CSS3 transition on desc div. Final 0.5s value is the delay before animation starts */
+	-webkit-transition: all 0.5s ease 0.5s;
+	-o-transition: all 0.5s ease 0.5s;
+	-ms-transition: all 0.5s ease 0.5s;
+	transition: all 0.5s ease 0.5s;
+}
+
+.imagepluscontainer div.desc a {
+	color: white;
+}
+
+.imagepluscontainer:hover div.desc {
+	/* CSS for desc div when mouse hovers over main container */
+	-moz-transform: translate(100%, 100%);
+	-webkit-transform: translate(100%, 100%);
+	-ms-transform: translate(100%, 100%);
+	-o-transform: translate(100%, 100%);
+	transform: translate(100%, 100%);
+	opacity: 1; /* Reveal desc DIV fully */
+}
+
+/*### Below CSS when applied to desc DIV slides the desc div from the right edge of the image ###*/
+.imagepluscontainer div.rightslide {
+	width: 150px; /* reset from default */
+	top: 15px;
+	right: 0;
+	left: auto; /* reset from default */
+	bottom: auto; /* reset from default */
+	padding-left: 15px;
+	-moz-border-radius: 0 8px 8px 0;
+	-webkit-border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
+}
+
+.imagepluscontainer:hover div.rightslide {
+	-moz-transform: translate(100%, 0);
+	-webkit-transform: translate(100%, 0);
+	-ms-transform: translate(100%, 0);
+	-o-transform: translate(100%, 0);
+	transform: translate(100%, 0);
+	opacity: 1;
+}
+
+.imagepluscontainer div.leftslide {
+	width: 150px; /* reset from default */
+	top: 15px;
+	left: 0;
+	bottom: auto; /* reset from default */
+	padding-left: 15px;
+	-moz-border-radius: 8px 0 0 8px;
+	-webkit-border-radius: 8px 0 0 8px;
+	border-radius: 8px 0 0 8px;
+}
+
+.imagepluscontainer:hover div.leftslide {
+	-moz-transform: translate(-100%, 0);
+	-webkit-transform: translate(-100%, 0);
+	-ms-transform: translate(-100%, 0);
+	-o-transform: translate(-100%, 0);
+	transform: translate(-100%, 0);
+	opacity: 1;
+}
+
